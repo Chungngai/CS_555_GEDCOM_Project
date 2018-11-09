@@ -33,30 +33,30 @@ public class UserStory38 {
 
                 if (birthMon == currentMonth){
                     if (birthDay > currentDay){
-                        res = firstname + " " + lastname;
+                        res ="ERROR:INDIVIDUAL:US38 " +firstname + " " + lastname;
                         System.out.println(res);
                     }else if (birthDay == currentDay){
-                        res = firstname + " " + lastname;
+                        res = "ERROR:INDIVIDUAL:US38 "+firstname + " " + lastname;
                         System.out.println(res);
                     } else {
                         res = "";
                     }
                 }else if ((birthMon - currentMonth )==1){
                     if (birthDay < currentDay){
-                        res = firstname + " " + lastname;
+                        res ="ERROR:INDIVIDUAL:US38 "+ firstname + " " + lastname;
                         System.out.println(res);
                     }else if (birthDay == currentDay){
-                        res = firstname + " " + lastname;
+                        res ="ERROR:INDIVIDUAL:US38 " +firstname + " " + lastname;
                         System.out.println(res);
                     } else {
                         res = "";
                     }
                 }else if ((currentMonth - birthMon)==11){
                     if (birthDay < currentDay){
-                        res = firstname + " " + lastname;
+                        res = "ERROR:INDIVIDUAL:US38 "+firstname + " " + lastname;
                         System.out.println(res);
                     }else if (birthDay == currentDay){
-                        res = firstname + " " + lastname;
+                        res = "ERROR:INDIVIDUAL:US38 "+firstname + " " + lastname;
                         System.out.println(res);
                     } else {
                         res = "";
