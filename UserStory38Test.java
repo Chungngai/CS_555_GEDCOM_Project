@@ -47,8 +47,8 @@ public class UserStory38Test {
         System.out.println(falist);
 
         String exp1 = "";
-        String exp2 = "tom J";
-        String exp3 = "jack J";
+        String exp2 = "ERROR:INDIVIDUAL:US38 "+"tom J";
+        String exp3 = "ERROR:INDIVIDUAL:US38 "+"jack J";
         String act1 = UserStory38.listupcomingbirthdatepeopleForIndi(idlist,falist);
         String act2 = UserStory38.listupcomingbirthdatepeopleForIndi(idlistupcoming1,falist);
         String act3 = UserStory38.listupcomingbirthdatepeopleForIndi(idlistupcoming2,falist);
